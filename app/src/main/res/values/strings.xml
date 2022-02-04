@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">PokeStat</string>
+    <string name="enter_pokemon_name">Enter Pokemon name</string>
+    <string name="search">Search</string>
+    <string name="exit">Exit</string>
+</resources>
