@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_pokemon_name">Saisir Nom du Pokemon</string>
+    <string name="search">Rechercher</string>
+    <string name="exit">Sortir</string>
+</resources>
