@@ -3,4 +3,9 @@
     <string name="enter_pokemon_name">Enter Pokemon name</string>
     <string name="search">Search</string>
     <string name="exit">Exit</string>
+    <string name="nom">Name :</string>
+    <string name="type">Type :</string>
+    <string name="poids">Weight :</string>
+    <string name="taille">Tall :</string>
+    <string name="statistiques">Statistics :</string>
 </resources>

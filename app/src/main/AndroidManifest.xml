@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PokeStat">
         <activity
+            android:name=".InfoPokemon"
+            android:label="Info Pokemon"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pokestat.MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
