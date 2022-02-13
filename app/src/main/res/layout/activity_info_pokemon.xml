@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="28dp"
         android:text="@string/nom"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -23,8 +23,8 @@
         android:id="@+id/textViewType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
         android:text="@string/type"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="32dp"
         android:text="@string/poids"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -65,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="24dp"
         android:text="@string/taille"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -93,7 +93,7 @@
         android:id="@+id/textViewStat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="16dp"
         android:text="@string/statistiques"
         android:textColorHighlight="#FFFFFF"
         android:textSize="34sp"
@@ -101,4 +101,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonVisiteWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ViewOnWebsite"
+        android:text="@string/view_on_website"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="Fermer"
+        android:text="@string/close"
+        app:layout_constraintEnd_toStartOf="@+id/buttonVisiteWeb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/buttonExtractData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/teal_200"
+        android:onClick="ExtraireDonnee"
+        android:text="@string/extract_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

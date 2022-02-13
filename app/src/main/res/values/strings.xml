@@ -8,4 +8,9 @@
     <string name="poids">Weight :</string>
     <string name="taille">Tall :</string>
     <string name="statistiques">Statistics :</string>
+    <string name="view_on_website">View On Website</string>
+    <string name="extract_data">Extract Data</string>
+    <string name="close">Close</string>
+    <string name="end_request">END REQUEST</string>
+    <string name="error_no_dom_entity">No Dom Entity</string>
 </resources>
